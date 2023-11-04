@@ -33,22 +33,37 @@
                 <img
                   src="./images/shopping-cart.png"
                   alt="White shopping cart"
+                  class="white-cart"
+                />
+                <img
+                  src="./images/icons8-cart-30.png"
+                  alt="Red shopping cart"
+                  class="color-cart"
                 />
               </div>
               <nav>
                 <div class="menu">
-                  <img
-                    src="./images/menu.png"
-                    alt="Three horizontal lines"
-                    class="btn-opennav"
-                  />
+                  <div class="menu-btn">
+                    <img
+                      src="./images/menu.png"
+                      alt="Three horizontal lines"
+                      class="btn-opennav"
+                    />
+                  </div>
+                  <div class="close-btn">
+                    <img
+                      src="./images/close.png"
+                      alt="x symbol"
+                      class="btn-closenav hidden"
+                    />
+                  </div>
                 </div>
                 <div class="menu_navbar hidden">
                   <div class="container">
                     <a href="#">Home</a>
                     <a href="#">Bestsellers</a>
                     <a href="#">Books Categories</a>
-                    <a href="#">Testiomonials</a>
+                    <a href="#">Testimonials</a>
                     <a href="#">Contact us</a>
                   </div>
                 </div>
@@ -133,6 +148,7 @@
                     src="./images/book-one.png"
                     alt="The black arts book cover"
                   />
+                  <div class="overlay hidden"></div>
                 </div>
                 <div class="shopping-info">
                   <div class="book-cart">
@@ -157,6 +173,7 @@
                     src="./images/book-two.png"
                     alt="Harry Potter series book cover"
                   />
+                  <div class="overlay hidden"></div>
                 </div>
                 <div class="shopping-info">
                   <div class="book-cart">
@@ -181,6 +198,7 @@
                     src="./images/book-three.png"
                     alt="Your heart is the sea book cover"
                   />
+                  <div class="overlay hidden"></div>
                 </div>
                 <div class="shopping-info">
                   <div class="book-cart">
@@ -205,6 +223,7 @@
                     src="./images/book-four.png"
                     alt="The Golem and the Jinni book cover"
                   />
+                  <div class="overlay hidden"></div>
                 </div>
                 <div class="shopping-info">
                   <div class="book-cart">
@@ -242,6 +261,7 @@
                 <div class="bc-image">
                   <img src="./images/kid-book.png" alt="a kid reading a book" />
                 </div>
+                <div class="cat-overlay ct-one hidden"></div>
                 <div class="info">
                   <h1 class="bc-title">Kids</h1>
                   <button type="submit" class="btn-see-all">See all</button>
@@ -291,7 +311,122 @@
             </div>
           </div>
         </section>
+        <section class="testimonials">
+          <div class="container">
+            <div class="header-text">
+              <h1>Testimonials</h1>
+              <p>See what our users are saying</p>
+            </div>
+            <div class="testimonial-grid">
+              <div class="testimonial testimonial-one">
+                <div class="container">
+                  <div class="test-image">
+                    <img
+                      src="./images/picture-one.svg"
+                      alt="a picture of a guy smiling"
+                    />
+                  </div>
+                  <div class="test-text">
+                    <p>
+                      Bookery’s Store App went above and beyond, great and
+                      friendly customer app and prompt delivery of my book. I
+                      highly recommend them. Many thanks!"
+                    </p>
+                  </div>
+                  <div class="test-name">
+                    <h1>- Adefenwa</h1>
+                  </div>
+                </div>
+              </div>
+              <div class="testimonial testimonial-two">
+                <div class="container">
+                  <div class="test-image">
+                    <img
+                      src="./images/picture-two.svg"
+                      alt="a picture of a girl with filter"
+                    />
+                  </div>
+                  <div class="test-text">
+                    <p>
+                      Bookery’s store had a book that I was unable to locate
+                      from any other source. I am thrilled that they had it, was
+                      very pleased with their service and would definitely
+                      recommend and use their company again."
+                    </p>
+                  </div>
+                  <div class="test-name">
+                    <h1>- Adebisi</h1>
+                  </div>
+                </div>
+              </div>
+              <div class="testimonial testimonial-three">
+                <div class="container">
+                  <div class="test-image">
+                    <img
+                      src="./images/picture-three.svg"
+                      alt="a picture of a girl with filter"
+                    />
+                  </div>
+                  <div class="test-text">
+                    <p>
+                      I had a question about my order and needed to contact
+                      customer service. Everyone I spoke to was helpful,
+                      courteous, and friendly. They made sure my gift arrived on
+                      time. Great app and service!
+                    </p>
+                  </div>
+                  <div class="test-name">
+                    <h1>- Jesutomisin</h1>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <footer>
+          <div class="container">
+            <div class="footer">
+              <div class="footer-logo">
+                <h1>Bookery's store</h1>
+              </div>
+              <div class="footer-nav">
+                <a href="#">About Us</a>
+                <a href="#">Physical Stores</a>
+                <a href="#">Blog</a>
+                <a href="#">Contact Us</a>
+              </div>
+              <div class="handles">
+                <div class="facebook">
+                  <a
+                    href="https://facebok.com/sotunde.emmanuel.7"
+                    target="_blank"
+                    ><img src="./images/facebook.png" alt="facebook logo"
+                  /></a>
+                </div>
+                <div class="instagram">
+                  <a href="https://instagram.com/_junior.dev" target="_blank"
+                    ><img src="./images/instagram.png" alt="instagram logo"
+                  /></a>
+                </div>
+                <div class="twitter">
+                  <a href="https://twitter.com/sotundenuel" target="_blank"
+                    ><img src="./images/twitter.png" alt="twitter logo"
+                  /></a>
+                </div>
+              </div>
+              <div class="copyright">
+                <p>
+                  &copy; 2023. Designed and Developed by
+                  <a href="https://twitter.com/sotundenuel" target="_blank"
+                    >juniorDev</a
+                  >
+                </p>
+              </div>
+            </div>
+          </div>
+        </footer>
       </div>
     </main>
+    <script src="./assets/js/script.js"></script>
   </body>
 </html>

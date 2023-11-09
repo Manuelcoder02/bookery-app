@@ -32,8 +32,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- GitHub Repo URL: [Bookery App - GitHub](https://github.com/Manuelcoder02/adefenwa-blogr-landing-page)
+- Live Site URL: [Bookery App](https://bookery-app.vercel.app/)
 - Figma Design URL: []()
 
 ## My process
@@ -49,26 +49,31 @@ Users should be able to:
 
 ### What I learned
 
-- I went further into CSS Keyframes
-- I learnt how to add a background image and also a background color to a div.
+- I learned how to inspect figma files in VS Code
+- I dived deep into the var() method in css extensively
+- How to use cover an image element with an overlay without affecting the children element
 - I learnt about how to position images well in a webpage
+- How to use .addEventListener for mouse hovering in JavaScript
 
 ### Continued development
 
+- CSS var()
 - CSS Keyframes/Animation
+- JavaScript DOM / Events handlers
 
 ### Useful resources
 
-- [W3 school](https://www.w3schools.com) - This helped me when I was trying to learn more about background color and background image
+- [W3 school](https://www.w3schools.com) - This helped me when I was trying to learn more about image opacity, mouseleave, mouseenter etc
+
+- [Chat GPT](https://chat.openai.com/) - It really helped me whenever I'm stuck on a particular section.
 
 ## Author
 
 - Frontend Mentor - [Manuelcoder02](https://www.frontendmentor.io/profile/Manuelcoder02)
-- Twitter - [juniorDev @sotundenuel](https://www.twitter.com/@sotundenuel)
-- Instagram -
-- Thread -
-- Whatsapp -
-- Facebook -
+- Twitter - [juniorDev](https://www.twitter.com/sotundenuel)
+- Instagram - [juniorDev](https://www.instagram.com/_junior.dev/)
+- Discord - []
+- Facebook - [Sotunde Fenwa](https://facebook.com/sotunde.emmanuel.7)
 
 ## Acknowledgments
 

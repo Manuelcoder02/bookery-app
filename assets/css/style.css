@@ -42,6 +42,9 @@ a:visited {
   text-decoration: none;
   color: var(--neutral-color);
 }
+.desktop-nav {
+  display: none;
+}
 /* HEADER STYLING */
 header {
   background-color: var(--secondary-color-silver);
@@ -141,6 +144,7 @@ a:hover {
   border-radius: 20px;
   border: none;
   color: var(--neutral-color);
+  cursor: pointer;
 }
 .search-icon {
   position: absolute;
@@ -152,8 +156,10 @@ a:hover {
   font-size: 12px;
   color: var(--neutral-color);
 }
-.search-input:hover {
-  opacity: 0.8;
+.search-input:hover,
+.search-input:active {
+  background-color: rgba(44, 45, 63, 0.8);
+  border: none;
 }
 /* HERO SECTION STYLING */
 .hero {
@@ -560,6 +566,81 @@ footer {
 /* -- MEDIA QUERY FOR SCREENS BIGGER THAN 500px -- */
 @media (min-width: 500px) {
   .nav {
-    border: 3px solid red;
+    display: none;
+  }
+  .desktop-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .desktop-logo {
+    font-family: var(--header-text);
+    font-size: 0.8em;
+    color: var(--secondary-color-gray);
+    text-transform: uppercase;
+    align-items: center;
+  }
+  .desktop-nav-list {
+    text-transform: uppercase;
+    display: flex;
+    gap: 1em;
+    font-family: var(--header-text);
+  }
+  .desktop-secondary-nav {
+    display: flex;
+    align-items: center;
+    gap: 1em;
+  }
+
+  /* HERO STYLING */
+  .hero .container {
+    width: 40%;
+    padding: 2em 0;
+  }
+
+  /* BESTSELLERS STYLING */
+  .books {
+    display: grid;
+    grid-template: repeat(1, 1fr) / repeat(4, 1fr);
+  }
+  .btn-bestsellers {
+    width: 20%;
+  }
+  .overlay {
+    /* margin: 0 1em; */
+    width: 70%;
+    text-align: center;
+  }
+  .book-image {
+    text-align: center;
+  }
+
+  /* BOOKS CATEGORIES */
+  .books-categories {
+    display: grid;
+    grid-template: repeat(1, 1fr) / repeat(4, 1fr);
+  }
+  .cat-overlay {
+    height: 29.5vh;
+  }
+  .btn-categories {
+    width: 20%;
+  }
+
+  /* TESTIMONIALS */
+  .testimonial-grid {
+    display: grid;
+    grid-template: repeat(1, 1fr) / repeat(3, 1fr);
+    grid-gap: 4em;
+  }
+
+  /* FOOTER STYLING */
+  .footer {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+  }
+  .copyright {
+    margin-left: 7em;
   }
 }

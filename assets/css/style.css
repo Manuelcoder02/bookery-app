@@ -179,7 +179,7 @@ a:hover {
   background: rgba(0, 0, 0, 0.6);
 }
 .hero-text {
-  color: var(--primary-color);
+  color: var(--neutral-color);
   position: relative;
   font-family: var(--header-text);
   font-size: 1.1em;
@@ -276,7 +276,9 @@ a:hover {
   box-shadow: 1px 1px 10px 4px rgba(0, 0, 0, 0.25);
   position: relative;
   cursor: pointer;
+  border-radius: 10px;
 }
+
 /* .book:hover,
 .book:active {
   background-color: var(--primary-color);
@@ -295,6 +297,8 @@ a:hover {
 .book-image {
   position: relative;
   z-index: 1;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
 }
 .shopping-info {
   position: absolute;
@@ -374,6 +378,9 @@ a:hover {
   margin: 1em 0;
   background-color: var(--secondary-color-silver);
   padding: 1em 0;
+}
+.categories .header-text h1 {
+  color: var(--neutral-color);
 }
 .categories p {
   color: var(--neutral-color);

@@ -74,6 +74,7 @@ Users should be able to:
 - Instagram - [juniorDev](https://www.instagram.com/_junior.dev/)
 - Discord - []
 - Facebook - [Sotunde Fenwa](https://facebook.com/sotunde.emmanuel.7)
+- LinkedIn - [Sotunde Emmanuel](https://www.linkedin.com/in/sotunde-emmanuel)
 
 ## Acknowledgments
 
